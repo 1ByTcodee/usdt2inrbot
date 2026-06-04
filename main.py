@@ -13,7 +13,7 @@ from telegram.ext import (
 )
 
 # ─── CONFIG ───────────────────────────────────────────────────────────────────
-BOT_TOKEN = "8801670459:AAHRhD8DcP9bA6SHRz7Ty4_sESqvNJZz1kk"
+BOT_TOKEN = "8632759844:AAEJ41qSZiqaFBNRxOhE6GmiQSSRtReIdQg"
 ADMIN_USERNAME = "@Idkwhotfim"
 ADMIN_CHAT_ID = None
 
