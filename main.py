@@ -53,11 +53,11 @@ COIN_NETWORKS = {
 # ─── RATE SLABS ───────────────────────────────────────────────────────────────
 def get_rate(amount_usd):
     if amount_usd <= 500:
-        return 98
+        return 110
     elif amount_usd <= 2000:
-        return 99
+        return 120
     else:
-        return 100
+        return 105
 
 def inr_amount(amount_usd):
     return math.ceil(float(amount_usd) * get_rate(float(amount_usd)))
